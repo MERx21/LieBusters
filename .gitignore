@@ -5,6 +5,16 @@ __pycache__/
 
 # C extensions
 *.so
+# Ignore sensitive video/audio/log files
+*.webm
+*.mp4
+*.wav
+*.csv
+*.zip
+recorded_session.*
+videos/
+temp_audio.*
+
 
 # Distribution / packaging
 .Python
